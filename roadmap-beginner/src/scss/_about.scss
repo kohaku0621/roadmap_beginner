@@ -1,0 +1,64 @@
+.about_nav {
+  margin-top: 100px;
+  font-size: smaller;
+  padding-left: 11vw;
+}
+
+.about_logo {
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.about_top {
+  text-align: center;
+}
+
+.about_top img {
+  width: 40vw;
+}
+.about-insta {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.fa-instagram {
+  font-size: 3em;
+}
+
+.about_name {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+}
+.about_kinds {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  padding-bottom: 6px;
+}
+
+.koha_birth {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 150px;
+  & i {
+    font-size: 3em;
+  }
+  & p {
+    margin: 0;
+    font-size: 40px;
+    padding-left: 20px;
+  }
+}
+
+.about_home {
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+

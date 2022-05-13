@@ -1,0 +1,110 @@
+
+.main_visual {
+  background-image: url(../../img/top.jpg);
+  background-position:  top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  background-attachment: fixed;
+}
+
+// .header-wrapper {
+//   background-color: rgba(0, 0, 0, 0);
+// }
+
+#logo {
+	// background: #fefefe00; /* 元の色 */
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#logo.invert {
+	background: #ffffffbf; /* スクロール後の色 */
+}
+
+
+
+
+.main_logo {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  // transform: translate(-50%, -50%);
+  animation-name:fadeUpAnime;
+  animation-duration:2s;
+  animation-fill-mode:forwards;
+  opacity:0;
+}
+
+@keyframes fadeUpAnime{
+  from {
+    opacity: 0;
+  transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+  transform: translateY(0);
+  }
+}
+
+
+
+.header-wrapper {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  display: flex;
+  // justify-content: flex-end;
+  position: fixed;
+  transition: background-color .3s, color .3s;
+  margin: 30px 0 30px;
+}
+
+
+
+.header-logo {
+  font-size: 12px;
+  padding-left: 200px;
+}
+
+.header-nav {
+  padding-top: 15px;
+  margin: 0 0 0 auto;
+  padding-right: 100px;
+}
+
+
+// 聞く
+
+.header-list {
+  list-style: none;
+  display: flex;
+  font-size: smaller;
+  font-weight: bolder;
+}
+
+.header-list li {
+  padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
